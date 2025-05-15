@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name | Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #0f172a, #1e293b);
+      color: white;
+      line-height: 1.6;
+      padding: 2rem;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    header {
+      text-align: center;
+      padding: 4rem 1rem;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #cbd5e1;
+    }
+
+    .section {
+      margin-top: 4rem;
+    }
+
+    .section-title {
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+      text-align: center;
+      color: #38bdf8;
+    }
+
+    .about, .projects, .contact {
+      background: #1e293b;
+      padding: 2rem;
+      border-radius: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+
+    .about p, .contact p {
+      font-size: 1rem;
+      color: #e2e8f0;
+    }
+
+    .project-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+    }
+
+    .project-card {
+      background: #334155;
+      padding: 1.5rem;
+      border-radius: 15px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.15);
+    }
+
+    .project-card h3 {
+      margin-bottom: 0.5rem;
+      color: #facc15;
+    }
+
+    .project-card p {
+      color: #cbd5e1;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      margin-top: 1rem;
+      background: #38bdf8;
+      color: #0f172a;
+      border: none;
+      border-radius: 10px;
+      font-weight: bold;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2.2rem;
+      }
+      .section-title {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Hello, I'm Nirvighna Sable</h1>
+      <p>I craft modern, responsive, and elegant websites that work beautifully across devices.</p>
+      <p>I am also a copywriter and video editor who can edit your videos and make your content reach peak audience</p>
+    </header>
+
+    <section class="section about">
+      <h2 class="section-title">About Myself</h2>
+      <p>
+        I’m a passionate and highly driven self-taught web developer and budding entrepreneur, currently sharpening my skills to perfection. Even as a learner, I bring the mindset and discipline of a seasoned professional — delivering pixel-perfect, responsive, and high-performance websites with precision and creativity.
+
+With an unstoppable hunger to grow and a mindset built on innovation, I don’t just build websites — I build digital experiences that speak, sell, and scale.
+
+I believe in learning by doing, failing fast, and improving faster. My mission is to turn ideas into impact — combining design, code, and strategy to create stunning web solutions that stand out in today's digital chaos.
+
+Entrepreneur by spirit. Coder by heart. Doer by mindset.
+
+Let’s build something extraordinary.
+      </p>
+    </section>
+
+    <section class="section projects">
+      <h2 class="section-title">Projects</h2>
+      <div class="project-list">
+        <div class="project-card">
+          <h3>Web develop project</h3>
+          <p>I have made a tons of projects on this topic. One is infront of you which has a unique, modern and polishing style which is way better</p>
+        </div>
+        <div class="project-card">
+          <h3>Copywritng Project</h3>
+          <p>Private — Available Upon Request
+
+            This project demonstrates my expertise in conversion-focused copywriting. From headlines that hook to CTAs that convert, it's a showcase of real results through words.
+
+Think you need better copy? Let’s talk first — then I’ll show you what’s possible.</p>
+        </div>
+        <div class="project-card">
+          <h3>Video Editing Project</h3>
+          <p>Private — Available Upon Request
+
+A dynamic and visually rich video editing showcase, crafted to demonstrate my creativity in motion. Whether it’s for YouTube, social media, or branded content — this project speaks without words.
+
+Ready to see the visuals? Just reach out.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact">
+      <h2 class="section-title">Contact Me</h2>
+      <p>
+        Have a project in mind or want to work together? Email me at [nirvighnasable001@gmail.com] or connect via [social links].
+      </p>
+      <a class="btn" href="mailto:nirvighnasable@gmail.com">Say Hello</a>
+    </section>
+  </div>
+</body>
+</html>
